@@ -176,7 +176,6 @@ public class Main implements Runnable, ActionListener{
   public void actionPerformed(ActionEvent e){
     // get the command from the action
     String command = e.getActionCommand();
-		System.out.println(x);
 		//sets which screen to be displayed if the "play" button is pressed 
 		if(command.equals("play")){
 			//switch the screen to the game
